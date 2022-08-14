@@ -1,0 +1,19 @@
+/*
+	Categories
+*/
+
+.categories {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	
+	.category {
+		flex: 0 0 calc((100% / 3) - 2rem);
+		max-width: calc((100% / 3) - 2rem);
+	}
+	
+	.category--large {
+		flex: 0 0 calc(50% - 2rem);
+		max-width: calc(50% - 2rem);
+	}
+}
